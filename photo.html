@@ -5,6 +5,10 @@
         .formfield * {
             vertical-align: middle;
         }
+        input[type="button"]
+        {
+           font-size:24px;
+        }
     </style>
 </head>
 <body>
@@ -42,7 +46,7 @@
         document.write("<br><br>");
         document.write("<p class=\"formfield\">");
         document.write("<textarea rows=\"1\" cols=\"80\" id=\"UrlText\" readonly>", window.location.href, "</textarea>");
-        document.write("<input type=\"button\" value=\"Copy Url\" onclick=\"CopyUrl();\" />");
+        document.write("<input type=\"button\" value=\"複製連結 / Copy URL\" onclick=\"CopyUrl();\" />");
         document.write("</p>");
     </script>
 
